@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'tony/digital-orbits',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '954f422c4e7085512511264a2ac9e9a493165ce2',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.9.3',
+            'version' => '6.9.3.0',
+            'reference' => '2f5c94fe7493efc213f643c23b1b1c249d40f47e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'stripe/stripe-php' => array(
+            'pretty_version' => 'v17.1.1',
+            'version' => '17.1.1.0',
+            'reference' => '01ca9b5fdd899b8e4b69f83b85e09d96f6240220',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stripe/stripe-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tony/digital-orbits' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '954f422c4e7085512511264a2ac9e9a493165ce2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
